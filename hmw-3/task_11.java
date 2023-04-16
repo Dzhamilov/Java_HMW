@@ -19,7 +19,6 @@ public class task_11 {
         System.out.println(arr);
         List<Integer> result = removeEvenNumber(arr);
         System.out.println(result);
-        
     }
     
     static List<Integer> removeEvenNumber(List<Integer> numbers) {
@@ -38,11 +37,9 @@ public class task_11 {
             try {
                 Integer.parseInt(strings.get(i));
                 strings.remove(i);
-
             } catch (NumberFormatException e) {
             
             }
         }
-        
     }
 }
